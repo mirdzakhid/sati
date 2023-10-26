@@ -5,3 +5,4 @@ while True:
         break
     except ValueError:
         print('Неверное значение')
+s_matr = np.eye(cr_num)
