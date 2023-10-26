@@ -6,3 +6,8 @@ while True:
     except ValueError:
         print('Неверное значение')
 s_matr = np.eye(cr_num)
+a = 1   #счётчик для пропуска уже заполненных значений
+for i in range(a, cr_num+1):
+    for j in range(a+1, cr_num+1):
+        while True:
+            try:
