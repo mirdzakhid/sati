@@ -15,3 +15,5 @@ for i in range(a, cr_num+1):
                 break
             except ValueError:
                 print('Неверное значение')
+         s_matr[j-1][i-1] = round(s_matr[i-1][j-1]**(-1), 2)
+    a += 1
